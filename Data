@@ -1,0 +1,13 @@
+About the dataset
+This database contains 41 attributes. The target variable refers to the income level, being 0 a collaborator who has an income less than 50,000 USD annually, and 1 a collaborator who has an income equal to or greater than 50,000 USD annually.
+
+To load the training data in your jupyter notebook, use the below command:
+
+import pandas as pd
+
+census_data = pd.read_csv("https://raw.githubusercontent.com/dphi-official/Datasets/master/Census_Income/Training_set_census.csv" )
+Evaluation Dataset
+Load the evaluation data (name it as census_eval). You can load the data using the below command.
+
+census_eval = pd.read_csv('https://raw.githubusercontent.com/dphi-official/Datasets/master/Census_Income/Testing_set_census.csv')
+Here the target column is deliberately not there as you need to predict it.
